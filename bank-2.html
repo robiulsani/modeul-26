@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+       <!-- talwin cdn -->
+       <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+     <header>
+      <h1 class="text-5xl text-center mt-0.5">Let's get some<span class="font-medium text-blue-500">mony</span></h1>
+     </header>
+      <main>
+            <section class="mt-12">
+                  <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto">
+                        <div class="bg-green-300 p-8 rounded-2xl">
+                              <h4 class="text-2xl text-white ">Deposid</h4>
+                              <h2 class="text-5xl text-white ">$<span id="deposid-bln">00</span></h2>
+                        </div>
+                        <div class="bg-orange-200 p-8 rounded-2xl">
+                              <h4 class="text-2xl text-white ">Withdraw</h4>
+                              <h2 class="text-5xl text-white ">$<span id="withdraw-balance">00</span></h2>
+                        </div>
+                        <div class="bg-teal-300 p-8 rounded-2xl">
+                              <h4 class="text-2xl text-white ">Balance</h4>
+                              <h2 class="text-5xl text-white ">$<span id="total-ban">1240</span></h2>
+                        </div>
+                  </div>
+            </section>
+            <section class="mt-12 ">
+                  <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto">
+                        <div class="bg-purple-400 p-8 rounded-2xl">
+                              <h4 class="text-2xl text-white mb-4">pleass Deposid</h4>
+                              
+                                    <input class="block mb-3 w-9/12  m-5" type="text" name="" id="deposid-id"placeholder="$ amount you want to your Deposid">
+                        
+                        <button id="deposid-btn" class="font-bold bg-yellow-700 p-2.5 m-5 rounded text-white hover:bg-cyan-800 ">Deposid</button>
+                              
+                        </div> 
+                        <div class="bg-rose-400 p-8 rounded-2xl">
+                              <h4 class="text-2xl text-white ">pleass whitdraw</h4>
+                              
+                                    
+                                    <input class="block mb-3 w-9/12 px-2.5 m-6" type="text" name="" id="withdraw"placeholder="$ amount you want to your whitdraw">
+                              
+                              <button id="whitdraw-btn" class="font-bold bg-yellow-700 p-2.5 m-5 rounded text-white hover:bg-rose-800 ">whitdraw</button>
+                              </div> 
+                             
+                        </div>
+
+                  </div>
+                  
+
+            </section>
+      </main>
+      <!-- link -->
+      <script src="bank-2.js"></script>
+     <script src="withdraw.js"></script>
+</body>
+</html>
